@@ -4,39 +4,6 @@
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />    
 	<title>David Bass r&eacute;sum&eacute; web developer in Bellingham, Washington</title>
 	<link rel="stylesheet" type="text/css" href="12oct2012-v3.css" />
-	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-
-    <script type="text/javascript">
-
-		$(document).ready(function(){		
-			$(".hl").hover(function () {
-				// highlight all of the words that match
-				var theText = $(this).text();
-				var textClassName = "." + theText;
-			  	$(document).find(textClassName).toggleClass("active");
-		   	});
- 	   	});
-
-		function showHide(obj) {
-			elem = document.getElementById(obj);
-			if (elem.style.display == 'block') {
-				elem.style.display = 'none';
-			} else {
-				elem.style.display = 'block';
-			}
-		}
-
-		function highlight(obj) {
-			elem = document.getElementById(obj);
-			//alert(elem.className);
-			if (elem.className == 'active') {
-				elem.className = 'inactive';
-			} else {
-				elem.className = 'active';
-			}
-		}
-
-    </script>
 <body>
 <div>
 	<noscript><h1>Please enable JavaScript</h1></noscript>
@@ -455,6 +422,40 @@
 	 		</ul>
 	 	</div>
 	</div>	
+
+  	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script type="text/javascript">
+
+		$(document).ready(function(){		
+			$(".hl").hover(function () {
+				// highlight all of the words that match
+				var theText = $(this).text();
+				var textClassName = "." + theText;
+			  	$(document).find(textClassName).toggleClass("active");
+		   	});
+ 	   	});
+
+		function showHide(obj) {
+			elem = document.getElementById(obj);
+			if (elem.style.display == 'block') {
+				elem.style.display = 'none';
+			} else {
+				elem.style.display = 'block';
+			}
+		}
+
+		function highlight(obj) {
+			elem = document.getElementById(obj);
+			//alert(elem.className);
+			if (elem.className == 'active') {
+				elem.className = 'inactive';
+			} else {
+				elem.className = 'active';
+			}
+		}
+
+    </script>
 
 </body>
 </html>
