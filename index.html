@@ -16,14 +16,15 @@
 
 	<h1 class="name">David Bass</h1>
   <div style="padding-left: 5px;">
-    <span class="fas fa-envelope"></span> david at davidbass dot com
-    <br><span class="fas fa-globe"></span> Bellingham, Washington	
-    <br><span class="fab fa-linkedin"></span> <a target="linkedin" href="http://www.linkedin.com/in/davidbass">linkedin.com/in/davidbass</a>
+    &middot; david at davidbass dot com
+    <br> &middot; Bellingham, Washington	
+    <br> &middot; <a target="linkedin" href="http://www.linkedin.com/in/davidbass">linkedin.com/in/davidbass</a>
   </div>
 	
 	<h2 class="section">Summary</h2>
-  Innovative web developer with a Master's degree in Information Systems
-  interested in automation, artificial Intelligence, security, user experience, design and problem solving.
+  Web developer with a Master's degree in Information Systems
+  interested in automation, artificial Intelligence, security, learning new things, design, innovation 
+  and problem solving.
 
   <div class="columns">
     <div class="leftcolumn">
@@ -39,18 +40,22 @@
           | 
         <a target=bitbucket href=https://bitbucket.org/davidbasswwu>Bitbucket<i class="fab fa-bitbucket"></i></a>) -->
         <ul class="fa-ul">
-          <li>developing a systems / responsibilities inventory tool using <span class="hl Neo4J">Neo4J</span> (graph database)</li>
-          <li>developing desktop batch uploader application using 
+          <li>developing a systems / responsibilities inventory tool using 
+            <span class="hl Neo4J">Neo4J</span> (graph database) and <span class="hl NodeJS">NodeJS</span> </li>
+          <li>developing a desktop batch uploader application using 
             <span class="hl Electron">Electron</span> / <span class="hl NodeJS">NodeJS</span> / 
             <span class="hl VueJS">VueJS</span> 
             to integrate with the University's instance of Islandora (named MABEL)
             <ul>
-              <li>the application creates thumbnails of the user's images, sends those images to Clarifai's and
-                Microsoft's Cognitive Services APIs for analysis.  The response contains tags/keywords that describe 
+              <li>the application creates thumbnails of the user's images, sends those images via Ajax to Clarifai's and
+                Microsoft's Cognitive Services APIs (or possibly MachineBox) for analysis.  The response contains tags/keywords that describe 
                 the image (or video), recognizes faces, performs a color analysis of the image, and generates an 
                 alt title tag.  All of this will provide consistent, enhanced metadata for the Unversity's large
                 collection of images and video.</li>
-              <li>if/when time permits, we hope to use NLG (natural language generation) to dynamically create
+              <li>next steps include generating MODS XML to accompany with each image, and then trigger Drush batch
+                ingest scripts to import the content into Islandora.
+              </li>
+              <li>if / when time permits, we hope to use NLG (natural language generation) to dynamically create
                 sentences that describe the image based on the keywords/tags provided by Clarifai / Microsoft's APIs.
               </li>
             </ul>
@@ -58,15 +63,21 @@
           <li>assisted colleagues with Drush commands for Islandora batch imports</li>
           <li>assisted colleagues with installing Drupal modules for Islandora</li>
           <li>developed a <span class="hl Python">Python</span> script to split large XML files into separate files</li>
-          <li>developed a Drupal 7 module to help students with writing assignments; automates several facets of in-person workshops</li>
-          <li>Designed and developed new interface for Primo, our library catalog / search engine
+          <li>developed a Drupal 7 module to help students with writing assignments; automates several 
+              facets of in-person workshops, including finding related keywords (via the Primo and Alchemy/Watson APIs)
+              and automatically generating all possible combinations of those words and generating Ajax (behind the scenes)
+              queries in Primo (OneSearch); something that would take a long time to do by hand</li>
+          <li>designed and developed interface enhancements for Primo (OneSearch), our library catalog / 
+            search engine
             <a href=https://bitbucket.org/wwulibraries/primo-by-exlibris-customizations><i class="fas fa-code"></i></a>
-            including API integration with Alma and other systems
+            including API integration with Alma and other systems and a custom permalink generator
           </li>
           <li>created classification and recommendation engine prototypes using Dandelion.eu and Alchemy APIs</li>
           <li>served on a team that gathered requirements and researched digital asset management systems (DAMS), which led to the selection of Islandora (MABEL)</li>
-          <li>Skills / tools used in this position:
+          <li>member of the OneSearch Management Team (OMT), the Alma Management Team (AMT) and the MABEL Management Team (Islandora)</li>
+          <li>skills / tools used in this position:
             <span class="hl JavaScript">JavaScript</span>,
+            <span class="hl Solr">Solr</span>,
             <span class="hl NodeJS">NodeJS</span>,
             <span class="hl APIs">APIs</span>,
             <span class="hl JSON">JSON</span>,
@@ -80,6 +91,7 @@
             <span class="hl PostgreSQL">PostgreSQL</span>, 
             <span class="hl XML">XML</span>,
             <span class="hl cURL">cURL</span>,
+            <span class="hl rSync">rSync</span>,
             <span class="hl Git">Git</span>,
             and
             <span class="hl CSS">CSS</span>.
@@ -448,7 +460,22 @@
           <td><img border="1" src="596979_gradient.gif" width="5" height="7"><img border="1" src="596979_gradient_empty.gif" width="45" height="7"></td>
           <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0</span></td>        
         </tr>			
-      </tbody>
+        <tr>
+          <td><span class="hl Solr">Solr</span></td>
+          <td><img border="1" src="596979_gradient.gif" width="5" height="7"><img border="1" src="596979_gradient_empty.gif" width="45" height="7"></td>
+          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2</span></td>        
+        </tr>			
+        <tr>
+          <td><span class="hl rSync">rSync</span></td>
+          <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
+          <td><span class="inlinesparkline">0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</span></td>        
+        </tr>			            
+        <tr>
+          <td><span class="hl MacOS">OSX / MacOS</span></td>
+          <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
+          <td><span class="inlinesparkline">0,0,0,0,0,0,3,3,3,3,3,3,3,5,7,7,8,9,6,6,6</span></td>        
+        </tr>			            
+        </tbody>
       </table>		
     </div>
     
