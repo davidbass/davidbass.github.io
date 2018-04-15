@@ -1,12 +1,21 @@
 body, html {
 	text-align: left; 
-	font-family: verdana, arial, sans, geneva, sans-serif; 
+    font-family: "Open Sans", sans-serif;
 	font-size: 1em;
 	color: #444;
 }
 
 body {
     margin: 1em;
+}
+
+h1, h2, h3, h4 {
+	color: #555;
+}
+
+.name {
+	margin-top: -5px;
+	margin-bottom: 6px;
 }
 
 .columns {
@@ -36,8 +45,30 @@ body {
     color: #444;
 }
 
-.title {
-    margin: -17px;
+.bigcard div {
+	margin-top: 1em;
+	margin-left: 1em;
+	color: #444;
+	margin-bottom: -10px;
+}
+
+.bigcard * {
+	font-size: 90%;
+}
+
+
+.bigcard h3.title {
+	margin-bottom: 1em;
+}
+
+.bigcard ul li {
+	padding: 0px;
+	margin-left: -8px;
+}
+
+h3.title {
+	margin: -17px;
+	font-size: 90%;
     color: #666;
 	border-bottom: 1px solid #ccddcc;
 	background: #EEE;
@@ -55,7 +86,41 @@ body {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
     border-radius: 3px;
-    border-top-right-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+h3.title div {
+	display: inline;
+	float: right;
+	font-weight: normal;
+	font-size: 90%;
+}
+
+h4.title {
+	font-size: 90%;
+	color: #666;
+	border-bottom: 1px solid #ccddcc;
+	background: #EEE;
+	background-image: -moz-linear-gradient(top, #FFF, #EEE);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFF),color-stop(1, #EEE));
+	background-image: -webkit-linear-gradient(top, #FFF, #EEE);
+	background-image: -moz-linear-gradient(top, #FFF, #EEE);
+	background-image: -ms-linear-gradient(top, #FFF, #EEE);
+	background-image: -o-linear-gradient(top, #FFF, #EEE);
+	text-shadow:1px 1px 0 white;
+	padding: 0.5em;
+	border: 1px solid #bbb;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border-top-right-radius: 8px;
+}
+
+h4.title span {
+	float: right;
+	font-weight: normal;
 }
 
 #skills {
