@@ -1,7 +1,7 @@
 body, html {
 	text-align: left; 
     font-family: "Open Sans", sans-serif;
-	font-size: 1em;
+	font-size: 90%;
 	color: #444;
 }
 
@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 	margin-bottom: 6px;
 }
 
-.columns {
+.row {
     display: flex;
 }
 
@@ -29,6 +29,10 @@ h1, h2, h3, h4 {
 
 .rightcolumn {
     flex: 1 0 0;
+}
+
+.singleColumn {
+	flex: 1;
 }
 
 .card {
@@ -44,6 +48,8 @@ h1, h2, h3, h4 {
     margin-top: 2em;
     color: #444;
 }
+
+
 
 .bigcard div {
 	margin-top: 1em;

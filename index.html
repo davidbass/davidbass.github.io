@@ -11,7 +11,7 @@
 <body>
   <noscript><h1>Please enable JavaScript</h1></noscript>
 
-  <div class="columns">
+  <div class="row">
     <div class="leftcolumn">
   
       <h1 class="name">David Bass</h1>
@@ -26,12 +26,12 @@
     </div>
   </div>
 
-  <div class="columns">
+  <div class="row">
     <div class="leftcolumn">
   		<h2 class="section">Experience <i class="fas fa-clock"></i></h2>
 
       <div class="card">
-        <h3 class="title">Senior Developer for Digital Initiatives @ Western Libraries</h3>
+        <h3 class="title">Senior Developer for Digital Initiatives @ Western Washington University Libraries</h3>
         <div>
           January 2013 - present / Bellingham, WA
         </div>
@@ -40,42 +40,39 @@
           | 
         <a target=bitbucket href=https://bitbucket.org/davidbasswwu>Bitbucket<i class="fab fa-bitbucket"></i></a>) -->
         <ul class="fa-ul">
-          <li>evaluating <span class="hl Neo4J">Neo4J</span> (graph database) as a possible tool for creating 
-            (or implementing an existing) systems / responsibilities inventory tool / map
-          </li>
-          <li>developing a desktop batch uploader application using 
-            <span class="hl Electron">Electron</span> / <span class="hl NodeJS">NodeJS</span> / 
-            <span class="hl VueJS">VueJS</span> 
-            to integrate with the University's instance of Islandora (named MABEL)
+          <li> <a target="pso" title="link to wwu.edu" href="https://president.wwu.edu/professional-staff-award-excellence">2018 Professional Staff Award for Excellence</a></li>     
+          <li> <a target='way' title='link to wwu.edu Western Way page' href='https://wp.wwu.edu/westernway/wall-of-acknowledgement/'>Western Way</a> (<a href='https://mailchi.mp/wwu/western-today-for-monday-april-24-675061'>story archive - September 29, 2017</a>)
+          <li>developing a cross-platform (Windows, MacOS, Linux) desktop application known as the Islandora Batch Uploader (IBU)  
             <ul>
-              <li>the application creates thumbnails of the user's images, sends those images via Ajax to Clarifai's and
-                Microsoft's Cognitive Services APIs (or possibly MachineBox) for analysis.  The response contains tags/keywords that describe 
-                the image (or video), recognizes faces, performs a color analysis of the image, and generates an 
-                alt title tag.  All of this will provide consistent, enhanced metadata for the Unversity's large
-                collection of images and video.</li>
-              <li>next steps include generating MODS XML to accompany with each image, and then trigger Drush batch
-                ingest scripts to import the content into Islandora.
-              </li>
-              <li>if / when time permits, we hope to use NLG (natural language generation) to dynamically create
-                sentences that describe the image based on the keywords/tags provided by Clarifai / Microsoft's APIs.
-              </li>
+              <li> using <span class="hl Electron">Electron</span>, <span class="hl NodeJS">NodeJS</span>, <span class="hl VueJS">VueJS</span>, <span class="hl ES6">ES6</span>, machine learning API integration (Clarifai and Microsoft) </li>
+              <li> designed to make it easy to describe and upload batches of images and video to Islandora</li>
+              <li> generates SSH private / public keys for authentication</li>
+              <li><a href="https://bitbucket.org/wwulibraries/islandora-batch-uploader/">Bitbucket repository</a><i class="fab fa-bitbucket"></i></a></li>
+              <li> Presented IBU at the 2018 Islandora Camp San Diego (<a target="icamp" title="link to Islandora Camp Schedule" href="https://islandora.ca/camps/ca2018/schedule">schedule</a> - <a target="slides" title="link to presentation slide deck" href="https://docs.google.com/presentation/d/1-5uXw8LFsyWg6B-mRf5oibuLMu-xk6tUkq_LWfwPmdI/edit?usp=sharing">slide deck</a> - <a href="https://islandora.ca/content/looking-back-islandora-campca">recap</a>) </li>
             </ul>
           </li>
+          <li> create a JSON to XML (MODS) preview tool: <a target='bbjson' title='link to Bitbucket repository' href='https://bitbucket.org/wwulibraries/json2xmlconverter/'>Bitbucket repository</a></li>
+          <li>create a Drupal 7 module for Islandora that repeats the search within PDF.js - <a href='https://bitbucket.org/wwulibraries/wwu_islandora_pdfautosearch/src'>Bitbucket repository</a></li> 
           <li>assisted colleagues with Drush commands for Islandora batch imports</li>
           <li>assisted colleagues with installing Drupal modules for Islandora</li>
           <li>developed a <span class="hl Python">Python</span> script to split large XML files into separate files</li>
-          <li>developed a Drupal 7 module to help students with writing assignments; automates several 
-              facets of in-person workshops, including finding related keywords (via the Primo and Alchemy/Watson APIs)
-              and automatically generating all possible combinations of those words and generating Ajax (behind the scenes)
-              queries in Primo (OneSearch); something that would take a long time to do by hand</li>
+          <li>developed a Drupal 7 module known as <a target='gs' title='link to Getting Started repository' href='https://bitbucket.org/wwulibraries/getting-started/'>Getting Started</a> 
+            <ul>
+              <li>designed to help students with writing assignments</li> 
+              <li>automates several facets of in-person workshops, including finding related keywords (via the Primo and Alchemy/Watson APIs)</li>
+              <li>and automatically generating all possible combinations of those words and generating Ajax queries in Primo (OneSearch); something that would take a long time to do by hand</li>
+            </ul>
+          </li>
           <li>designed and developed interface enhancements for Primo (OneSearch), our library catalog / 
             search engine
-            <a href=https://bitbucket.org/wwulibraries/primo-by-exlibris-customizations><i class="fas fa-code"></i></a>
-            including API integration with Alma and other systems and a custom permalink generator
+            <a href='https://bitbucket.org/wwulibraries/primo-by-exlibris-customizations'><i class="fas fa-code"></i></a>
+            including API integration with Alma and other systems and a custom permalink generator.
+            Screenshots: <a target='before' href='https://d.pr/i/kMpe3E'>before</a> | <a target='after' href='https://d.pr/i/RssKjM'>after</a>
           </li>
           <li>created classification and recommendation engine prototypes using Dandelion.eu and Alchemy APIs</li>
           <li>served on a team that gathered requirements and researched digital asset management systems (DAMS), which led to the selection of Islandora (MABEL)</li>
           <li>member of the OneSearch Management Team (OMT), the Alma Management Team (AMT) and the MABEL Management Team (Islandora)</li>
+          <li>former member of the Accessiblity Team</li>
           <li>skills / tools used in this position:
             <span class="hl JavaScript">JavaScript</span>,
             <span class="hl Solr">Solr</span>,
@@ -162,6 +159,209 @@
           </li>					
         </ul>
       </div>
+    </div>
+      
+    <div class="rightcolumn">	
+      <h2 class="section">Skills <i class="fas fa-wrench"></i></h2> 
+      <div class="card">
+        <table id="skills">
+          <tbody>
+          <tr> 
+            <td>Skill</td>
+            <td>Confidence</td>
+            <td>Career Usage</td>
+          </tr>
+          <tr>
+            <td><span class="hl JavaScript">JavaScript (ES6)</span> </td>
+            <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,10</span></td>        
+          </tr>		
+          <tr>
+              <td><span class="hl JavaScript">JavaScript</span> </td>
+              <td><img border="1" src="596979_gradient.gif" width="45" height="7"><img border="1" src="596979_gradient_empty.gif" width="5" height="7"></td>
+              <td><span class="inlinesparkline">1,2,3,4,5,6,7,8,9,10,10,10,10,10,10,10,10,10,10,10,10</span></td>        
+          </tr>		
+          <tr>
+            <td><span class="hl Python">Python</span> </td>
+            <td><img border="1" src="596979_gradient.gif" width="20" height="7"><img border="1" src="596979_gradient_empty.gif" width="30" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,5</span></td>        
+          </tr>
+          <tr>
+            <td><span class="hl NodeJS">NodeJS</span> </td>
+            <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,10</span></td>        
+          </tr>
+          <tr>
+            <td><span class="hl VueJS">VueJS</span> </td>
+            <td><img border="1" src="596979_gradient.gif" width="25" height="7"><img border="1" src="596979_gradient_empty.gif" width="25" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10</span></td>        
+          </tr>
+          <tr>
+            <td><span class="hl Electron">Electron</span> </td>
+            <td><img border="1" src="596979_gradient.gif" width="25" height="7"><img border="1" src="596979_gradient_empty.gif" width="25" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,10</span></td>        
+          </tr>
+          <tr>
+            <td><span class="hl HTML">HTML</span> </td>
+            <td><img border="1" src="596979_gradient.gif" width="49" height="7"><img border="1" src="596979_gradient_empty.gif" width="1" height="7"></td>
+            <td><span class="inlinesparkline">9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl CSS">CSS</span> </td>
+            <td><img border="1" src="596979_gradient.gif" width="40" height="7"><img border="1" src="596979_gradient_empty.gif" width="10" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,8,8,8,8,8,8,8,8,8,8,8,8,8</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl jQuery">jQuery</span> </td>
+            <td><img border="1" src="596979_gradient.gif" width="45" height="7"><img border="1" src="596979_gradient_empty.gif" width="5" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,1,3,5,6,7,8,10,10,10,10,9,8,4</span></td>        
+          </tr>			
+          <tr>				
+            <td><span class="hl Git">Git</span></td> 
+            <td><img border="1" src="596979_gradient.gif" width="40" height="7"><img border="1" src="596979_gradient_empty.gif" width="10" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,8,9,9,9,9</span></td>        
+          </tr>
+          <tr>
+            <td><span class="hl SQL Linux">Linux</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
+            <td><span class="inlinesparkline">0,0,1,1,1,2,3,4,4,4,4,5,6,6,5,6,7,8,9,10,10</span></td>        
+          </tr>			
+          <tr>				
+            <td><span class="hl PHP">PHP</span> </td> 
+            <td><img border="1" src="596979_gradient.gif" width="40" height="7"><img border="1" src="596979_gradient_empty.gif" width="10" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,3,5,7,9,9,9,10,9,9,8,7,6,5,4,3,2,1,1</span></td>        
+          </tr>
+          <tr>
+            <td><span class="hl Drupal 7">Drupal 7</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="30" height="7"><img border="1" src="596979_gradient_empty.gif" width="20" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,5,6,7</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl Drupal 7 module development"> &middot; module dev</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="30" height="7"><img border="1" src="596979_gradient_empty.gif" width="20" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,10,7</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl JSON">JSON</span> </td>
+            <td><img border="1" src="596979_gradient.gif" width="49" height="7"><img border="1" src="596979_gradient_empty.gif" width="1" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,7,8,8,8,10</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl AJAX">AJAX</span> </td>
+            <td><img border="1" src="596979_gradient.gif" width="45" height="7"><img border="1" src="596979_gradient_empty.gif" width="5" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,1,3,5,7,9,9,9,9,9,9,9,9,9</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl beginnerXML">XML</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4</span></td>        
+          </tr>			
+          <tr>	
+            <td><span class="hl cURL">cURL</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,2,2,3,3,3,3,3,3,3,4,3,3,2,3,3,2,1,1</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl PostgreSQL">PostgreSQL</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,1,2,3,4,5,6,7,8,9,8,7,6,5,4,3,2,1,1</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl SQL">SQL</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="40" height="7"><img border="1" src="596979_gradient_empty.gif" width="10" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,2,4,6,8,10,10,10,9,9,8,7,6,5,4,3,2,1,1</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl Apache">Apache</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,1,2,3,4,5,6,7,8,9,8,7,6,5,4,3,2,1,1</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl Windows">Windows</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="45" height="7"><img border="1" src="596979_gradient_empty.gif" width="5" height="7"></td>
+            <td><span class="inlinesparkline">1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,5,5,5,1,1</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl Photoshop">Photoshop</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="30" height="7"><img border="1" src="596979_gradient_empty.gif" width="20" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,1,2,4,4,4,4,3,4,1,1,1,1,1,1,0,0</span></td>        
+          </tr>					
+          <tr>	
+            <td><span class="hl PERL">PERL</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="10" height="7"><img border="1" src="596979_gradient_empty.gif" width="40" height="7"></td>
+            <td><span class="inlinesparkline">0,1,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8,10</span></td>        
+          </tr>			
+          <tr>	
+            <td><span class="hl ASP Classic">ASP Classic</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
+            <td><span class="inlinesparkline">0,5,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</span></td>        
+          </tr>			
+          <tr>	
+            <td><span class="hl ASP.net">ASP.net</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="10" height="7"><img border="1" src="596979_gradient_empty.gif" width="40" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl MySQL">MySQL</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="20" height="7"><img border="1" src="596979_gradient_empty.gif" width="30" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,5,5,6,7,8,9,8,7,4,2,2,2,2</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl RoR">Ruby on Rails</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="5" height="7"><img border="1" src="596979_gradient_empty.gif" width="45" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl Solr">Solr</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="5" height="7"><img border="1" src="596979_gradient_empty.gif" width="45" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2</span></td>        
+          </tr>			
+          <tr>
+            <td><span class="hl rSync">rSync</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</span></td>        
+          </tr>			            
+          <tr>
+            <td><span class="hl MacOS">OSX / MacOS</span></td>
+            <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
+            <td><span class="inlinesparkline">0,0,0,0,0,0,3,3,3,3,3,3,3,5,7,7,8,9,6,6,6</span></td>        
+          </tr>			            
+          </tbody>
+        </table>		
+      </div>
+      
+      <div>	
+        <h2 class="section">Education <span class="fas fa-graduation-cap"></span></h2> 
+        <div class="card">      
+          <h3 class="title">M.S. Information Systems</h3>
+          <div>Mississippi State University</div>
+          1996 - 1997
+        </div>
+        <div class="card">      
+          <h3 class="title">B.S. Business Administration</h3>
+          <div>University of Montana</div>
+          1994 - 1995
+        </div>
+        <div class="card">
+          <h3 class="title">Business Administration</h3>
+          <div>Auburn University</div>
+          1991 - 1993
+        </div>
+      </div>	
+
+      <div>	
+        <h2 class="section">Contact Information</h2> 
+        <div class="card">      
+            david at davidbass dot com
+            <br>Bellingham, Washington	
+            <br><a target="linkedin" href="http://www.linkedin.com/in/davidbass">linkedin.com/in/davidbass</a>          
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="row">
+    <div class="singleColumn">
 
       <div class="card">
         <h3 class="title">Founder / Developer @ Cascade Data Systems</h3>
@@ -227,10 +427,13 @@
           </li>
         </ul>
       </div>
-      
+
+
+
+
       <div class="card bigcard">
         <h3 class="title">Prior Experience</h3>
-
+  
         <h4 class="title">
           Web Developer @ Creative Assets <span>2000-2002 / Seattle, Washington</span>
         </h4>       
@@ -239,7 +442,7 @@
             worked with Acadia Creative (<span class="ASP">ASP</span>) and Electric Pen Design building e-commerce and other websites
           </li>
         </ul>
-
+  
         <h4 class="title">Web Developer @ Attachmate <span>1999-2001 / Bellevue, Washington</span></h4>        
         <ul>
           <li>
@@ -251,7 +454,7 @@
               <span class="hl ASP">ASP</span> for internal use
           </li>
         </ul>
-
+  
         <h4 class="title">Entrepreneur @ eGauge <span>1999 / Seattle, Washington</span></h4>         
         <ul>
           <li> 
@@ -260,28 +463,28 @@
             and SQL Server
           </li>
         </ul>
-
+  
         <h4 class="title">Software Developer @ B-Line <span>1998 - 1999 / Seattle, Washington</span></h4> 
         <ul>
           <li>
             created software tools to process and analyze large amounts of data
           </li>
         </ul>
-
+  
         <h4 class="title">Web Developer @ Orbit Network <span>1997 - 1998 / Whitefish, Montana</span></h4>
         <ul>
           <li>
             maintained travel-oriented websites
           </li>
         </ul>
-
+  
         <h4 class="title">Database Developer @ Uwohali <span>1997 / Starkville, Mississippi</span></h4>
         <ul>
           <li>  
             <span class="hl Access">Access</span> database development
           </li>
         </ul>
-
+  
         <h4 class="title">Technical Support @ Mississippi State University <span>1996-1997 / Starkville, Mississippi</span></h3>
         <ul>
           <li> 
@@ -289,209 +492,11 @@
           </li>
         </ul>
       </div>
+  
     </div>
-      
-	<div class="rightcolumn">	
-		<h2 class="section">Skills <i class="fas fa-wrench"></i></h2> 
-    <div class="card">
-      <table id="skills">
-        <tbody>
-        <tr> 
-          <td>Skill</td>
-          <td>Confidence</td>
-          <td>Career Usage</td>
-        </tr>
-        <tr>
-          <td><span class="hl GraphQL">GraphQL</span> </td>
-          <td><img border="1" src="596979_gradient.gif" width="10" height="7"><img border="1" src="596979_gradient_empty.gif" width="40" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,5</span></td>        
-        </tr>
-        <tr>
-          <td><span class="hl Neo4J">Neo4J</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="20" height="7"><img border="1" src="596979_gradient_empty.gif" width="30" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,5</span></td>        
-        </tr>
-        <tr>
-          <td><span class="hl Python">Python</span> </td>
-          <td><img border="1" src="596979_gradient.gif" width="20" height="7"><img border="1" src="596979_gradient_empty.gif" width="30" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,5</span></td>        
-        </tr>
-        <tr>
-          <td><span class="hl NodeJS">NodeJS</span> </td>
-          <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,10</span></td>        
-        </tr>
-        <tr>
-          <td><span class="hl VueJS">VueJS</span> </td>
-          <td><img border="1" src="596979_gradient.gif" width="25" height="7"><img border="1" src="596979_gradient_empty.gif" width="25" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10</span></td>        
-        </tr>
-        <tr>
-          <td><span class="hl Electron">Electron</span> </td>
-          <td><img border="1" src="596979_gradient.gif" width="25" height="7"><img border="1" src="596979_gradient_empty.gif" width="25" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,10</span></td>        
-        </tr>
-        <tr>
-          <td><span class="hl JavaScript">JavaScript</span> </td>
-          <td><img border="1" src="596979_gradient.gif" width="45" height="7"><img border="1" src="596979_gradient_empty.gif" width="5" height="7"></td>
-          <td><span class="inlinesparkline">1,2,3,4,5,6,7,8,9,10,10,10,10,10,10,10,10,10,10,10,10</span></td>        
-        </tr>		
-        <tr>
-          <td><span class="hl HTML">HTML</span> </td>
-          <td><img border="1" src="596979_gradient.gif" width="49" height="7"><img border="1" src="596979_gradient_empty.gif" width="1" height="7"></td>
-          <td><span class="inlinesparkline">9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl CSS">CSS</span> </td>
-          <td><img border="1" src="596979_gradient.gif" width="40" height="7"><img border="1" src="596979_gradient_empty.gif" width="10" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,8,8,8,8,8,8,8,8,8,8,8,8,8</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl jQuery">jQuery</span> </td>
-          <td><img border="1" src="596979_gradient.gif" width="45" height="7"><img border="1" src="596979_gradient_empty.gif" width="5" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,1,3,5,6,7,8,10,10,10,10,9,8,4</span></td>        
-        </tr>			
-        <tr>				
-          <td><span class="hl Git">Git</span></td> 
-          <td><img border="1" src="596979_gradient.gif" width="30" height="7"><img border="1" src="596979_gradient_empty.gif" width="20" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,8,9,9,9,9</span></td>        
-        </tr>
-        <tr>
-          <td><span class="hl SQL Linux">Linux</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
-          <td><span class="inlinesparkline">0,0,1,1,1,2,3,4,4,4,4,5,6,6,5,6,7,8,9,10,10</span></td>        
-        </tr>			
-        <tr>				
-          <td><span class="hl PHP">PHP</span> </td> 
-          <td><img border="1" src="596979_gradient.gif" width="40" height="7"><img border="1" src="596979_gradient_empty.gif" width="10" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,3,5,7,9,9,9,10,9,9,8,7,6,5,4,3,2,1,1</span></td>        
-        </tr>
-        <tr>
-          <td><span class="hl Drupal 7">Drupal 7</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="30" height="7"><img border="1" src="596979_gradient_empty.gif" width="20" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,5,6,7</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl Drupal 7 module development"> &middot; module dev</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="30" height="7"><img border="1" src="596979_gradient_empty.gif" width="20" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,10,7</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl JSON">JSON</span> </td>
-          <td><img border="1" src="596979_gradient.gif" width="49" height="7"><img border="1" src="596979_gradient_empty.gif" width="1" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,7,8,8,8,10</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl AJAX">AJAX</span> </td>
-          <td><img border="1" src="596979_gradient.gif" width="45" height="7"><img border="1" src="596979_gradient_empty.gif" width="5" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,1,3,5,7,9,9,9,9,9,9,9,9,9</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl beginnerXML">XML</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4</span></td>        
-        </tr>			
-        <tr>	
-          <td><span class="hl cURL">cURL</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,2,2,3,3,3,3,3,3,3,4,3,3,2,3,3,2,1,1</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl PostgreSQL">PostgreSQL</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,1,2,3,4,5,6,7,8,9,8,7,6,5,4,3,2,1,1</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl SQL">SQL</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="40" height="7"><img border="1" src="596979_gradient_empty.gif" width="10" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,2,4,6,8,10,10,10,9,9,8,7,6,5,4,3,2,1,1</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl Apache">Apache</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,1,2,3,4,5,6,7,8,9,8,7,6,5,4,3,2,1,1</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl Windows">Windows</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="45" height="7"><img border="1" src="596979_gradient_empty.gif" width="5" height="7"></td>
-          <td><span class="inlinesparkline">1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,5,5,5,1,1</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl Photoshop">Photoshop</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="30" height="7"><img border="1" src="596979_gradient_empty.gif" width="20" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,1,2,4,4,4,4,3,4,1,1,1,1,1,1,0,0</span></td>        
-        </tr>					
-        <tr>	
-          <td><span class="hl PERL">PERL</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="10" height="7"><img border="1" src="596979_gradient_empty.gif" width="40" height="7"></td>
-          <td><span class="inlinesparkline">0,1,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8,10</span></td>        
-        </tr>			
-        <tr>	
-          <td><span class="hl ASP Classic">ASP Classic</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
-          <td><span class="inlinesparkline">0,5,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</span></td>        
-        </tr>			
-        <tr>	
-          <td><span class="hl ASP.net">ASP.net</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="10" height="7"><img border="1" src="596979_gradient_empty.gif" width="40" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl MySQL">MySQL</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="20" height="7"><img border="1" src="596979_gradient_empty.gif" width="30" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,5,5,6,7,8,9,8,7,4,2,2,2,2</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl RoR">Ruby on Rails</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="5" height="7"><img border="1" src="596979_gradient_empty.gif" width="45" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl Solr">Solr</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="5" height="7"><img border="1" src="596979_gradient_empty.gif" width="45" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2</span></td>        
-        </tr>			
-        <tr>
-          <td><span class="hl rSync">rSync</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</span></td>        
-        </tr>			            
-        <tr>
-          <td><span class="hl MacOS">OSX / MacOS</span></td>
-          <td><img border="1" src="596979_gradient.gif" width="35" height="7"><img border="1" src="596979_gradient_empty.gif" width="15" height="7"></td>
-          <td><span class="inlinesparkline">0,0,0,0,0,0,3,3,3,3,3,3,3,5,7,7,8,9,6,6,6</span></td>        
-        </tr>			            
-        </tbody>
-      </table>		
-    </div>
-    
-		<div>	
-			<h2 class="section">Education <span class="fas fa-graduation-cap"></span></h2> 
-      <div class="card">      
-        <h3 class="title">M.S. Information Systems</h3>
-        <div>Mississippi State University</div>
-        1996 - 1997
-      </div>
-      <div class="card">      
-        <h3 class="title">B.S. Business Administration</h3>
-        <div>University of Montana</div>
-        1994 - 1995
-      </div>
-      <div class="card">
-        <h3 class="title">Business Administration</h3>
-        <div>Auburn University</div>
-        1991 - 1993
-      </div>
-    </div>	
+  </div>
 
-		<div>	
-      <h2 class="section">Contact Information</h2> 
-      <div class="card">      
-          david at davidbass dot com
-          <br>Bellingham, Washington	
-          <br><a target="linkedin" href="http://www.linkedin.com/in/davidbass">linkedin.com/in/davidbass</a>          
-      </div>
-    </div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="jquery.sparkline.js"></script>
