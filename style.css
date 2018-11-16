@@ -158,6 +158,9 @@ a.noline:hover {
     opacity: .5;
 }
 
+#contact {
+	float: right;
+}
 
 fieldset {
 	border: 1px solid #CFCFC5; 
