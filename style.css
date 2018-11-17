@@ -38,7 +38,7 @@ h1, h2, h3, h4 {
 .card {
     background: white;
     border: 1px solid #999;
-    margin: 1em;
+    margin: 0.5em;
     padding: 1em;
     box-shadow: 0 2px 3px rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.1);
     border-top-right-radius: 8px;
@@ -49,7 +49,14 @@ h1, h2, h3, h4 {
     color: #444;
 }
 
+.card > ul {
+	margin-top: 2em;
+	margin-left: -2em;
+}
 
+#skills {
+	margin-top: 2em;
+}
 
 .bigcard div {
 	margin-top: 1em;
@@ -73,7 +80,8 @@ h1, h2, h3, h4 {
 }
 
 h3.title {
-	margin: -17px;
+	margin: -14px;
+	padding: 0.7em;
 	font-size: 90%;
     color: #666;
 	border-bottom: 1px solid #ccddcc;
@@ -85,7 +93,6 @@ h3.title {
 	background-image: -ms-linear-gradient(top, #FFF, #EEE);
 	background-image: -o-linear-gradient(top, #FFF, #EEE);
 	text-shadow:1px 1px 0 white;
-	padding: 0.5em;
 	border: 1px solid #bbb;
 	border-top: 1px solid #ccc;
 	border-left: 1px solid #ccc;
@@ -103,6 +110,7 @@ h3.title div {
 }
 
 h4.title {
+	margin: -14px;
 	font-size: 90%;
 	color: #666;
 	border-bottom: 1px solid #ccddcc;
@@ -124,14 +132,13 @@ h4.title {
 	border-top-right-radius: 8px;
 }
 
-h4.title span {
+.title span {
 	float: right;
 	font-weight: normal;
 }
 
-#skills {
+.skills {
     border-collapse: collapse;
-    
     width: 100%;
     padding: 1em;
 }
@@ -160,6 +167,7 @@ a.noline:hover {
 
 #contact {
 	float: right;
+	margin-top: 3em;
 }
 
 fieldset {
