@@ -1,0 +1,253 @@
+body, html {
+	text-align: left; 
+    font-family: "Open Sans", sans-serif;
+	font-size: 90%;
+	color: #444;
+}
+
+body {
+    margin: 1em;
+}
+
+h1, h2, h3, h4 {
+	color: #596979;
+}
+
+.name {
+	margin-top: -5px;
+	margin-bottom: 6px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+ }
+
+.column {    
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+}
+
+.column-nowrap {    
+	display: flex;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+	flex-direction: column;
+}
+
+
+.double-column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+	.column {
+		flex: 1
+	}
+
+	.double-column {
+		flex: 2
+	}
+}
+
+.right {
+	float: right;
+	text-align: right;
+	margin-left: auto;
+}
+
+.card {
+    background: white;
+    /* border: 1px solid #999; */
+    margin: 0.5em;
+    padding: 1em;
+    box-shadow: 0 2px 3px rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.1);
+    border-top-right-radius: 8px;
+}
+
+.card div {
+    color: #444;
+}
+
+.card > ul {
+	margin-top: 2em;
+	margin-left: -2em;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+
+#skills {
+	margin-top: 2em;
+}
+
+#skills td {
+	white-space: nowrap;
+}
+
+.bigcard div {
+	margin-top: 1em;
+	margin-left: 1em;
+	color: #444;
+	margin-bottom: -10px;
+}
+
+.bigcard * {
+	font-size: 90%;
+}
+
+.bigcard h3.title {
+	margin-bottom: 1em;
+}
+
+.bigcard ul li {
+	padding: 0px;
+	margin-left: -8px;
+}
+
+h3.title {
+	margin: -14px;
+	padding: 0.7em;
+	font-size: 90%;
+    color: #666;
+	border-bottom: 1px solid #ccddcc;
+	background: #EEE;
+	background-image: -moz-linear-gradient(top, #FFF, #EEE);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFF),color-stop(1, #EEE));
+	background-image: -webkit-linear-gradient(top, #FFF, #EEE);
+	background-image: -moz-linear-gradient(top, #FFF, #EEE);
+	background-image: -ms-linear-gradient(top, #FFF, #EEE);
+	background-image: -o-linear-gradient(top, #FFF, #EEE);
+	text-shadow:1px 1px 0 white;
+	border: 1px solid #bbb;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+    border-radius: 3px;
+	border-top-right-radius: 8px;
+}
+
+h3.title div {
+	display: inline;
+	float: right;
+	font-weight: normal;
+	font-size: 90%;
+}
+
+h4.title {
+	margin: -14px;
+	font-size: 90%;
+	color: #666;
+	border-bottom: 1px solid #ccddcc;
+	background: #EEE;
+	background-image: -moz-linear-gradient(top, #FFF, #EEE);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFF),color-stop(1, #EEE));
+	background-image: -webkit-linear-gradient(top, #FFF, #EEE);
+	background-image: -moz-linear-gradient(top, #FFF, #EEE);
+	background-image: -ms-linear-gradient(top, #FFF, #EEE);
+	background-image: -o-linear-gradient(top, #FFF, #EEE);
+	text-shadow:1px 1px 0 white;
+	padding: 0.5em;
+	border: 1px solid #bbb;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border-top-right-radius: 8px;
+}
+
+.title span {
+	float: right;
+	font-weight: normal;
+}
+
+.skills {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 1em;
+}
+
+.active {
+	background: #FFFF00;
+}
+
+a {
+	-webkit-transition: opacity 0.2s linear;
+    opacity: 1;
+    color: #333;
+}
+
+
+a.noline {
+   text-decoration: none;
+   color: #000000;
+}
+
+a.noline:hover {
+	color: #003300;
+	-webkit-transition: opacity 0.2s linear;
+    opacity: .5;
+}
+
+#contact {
+	float: right;
+	margin-top: 3em;
+}
+
+fieldset {
+	border: 1px solid #CFCFC5; 
+	padding: 1em;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+}
+
+table {
+	border-collapse: collapse;
+	border-color: #CFCFC5;
+	border: #CFCFC5;
+	border-width: 1px;
+}
+
+td {
+	vertical-align: top; 
+}
+
+.rounded {
+	background: #EEE;
+	background-image: -moz-linear-gradient(top, #FFF, #EEE);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFF),color-stop(1, #EEE));
+	background-image: -webkit-linear-gradient(top, #FFF, #EEE);
+	background-image: -moz-linear-gradient(top, #FFF, #EEE);
+	background-image: -ms-linear-gradient(top, #FFF, #EEE);
+	background-image: -o-linear-gradient(top, #FFF, #EEE);
+	border: 1px solid #bbb;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}	
+
+
+.normal {
+	font-weight: normal;
+	color: #999;
+}
+
+.fas {
+    opacity: 0.5;
+    color: #aaa;
+}
