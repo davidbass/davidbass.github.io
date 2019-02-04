@@ -3,12 +3,6 @@ import numeratorImg from '../images/596979_gradient.gif';
 import denominatorImg from '../images/596979_gradient_empty.gif';
 import { Sparklines, SparklinesCurve } from 'react-sparklines';
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSquare, faCheckSquare,  } from '@fortawesome/free-solid-svg-icons'
-
-library.add(faSquare, faCheckSquare)
-
 function getRemainder(numerator) {
   const denominator = (100 - numerator) / 2;
   return denominator;
