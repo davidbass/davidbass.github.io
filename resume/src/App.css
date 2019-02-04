@@ -112,19 +112,31 @@ h1, h2, h3, h4 {
 	margin-left: -8px;
 }
 
+.gradient {
+    color: #666;
+    border-bottom: 1px solid #ccddcc;
+    background: linear-gradient(#FFF,#EEE);
+    text-shadow: 1px 1px 0 white;
+    border: 1px solid #bbb;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-radius: 3px;
+    border-top-right-radius: 8px;
+    margin-top: -13px;
+    margin-left: -14px;
+    width: 104%;
+    padding-left: 13px;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
 h3.title {
 	margin: -14px;
 	padding: 0.7em;
 	font-size: 90%;
     color: #666;
 	border-bottom: 1px solid #ccddcc;
-	background: #EEE;
-	background-image: -moz-linear-gradient(top, #FFF, #EEE);
-	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFF),color-stop(1, #EEE));
-	background-image: -webkit-linear-gradient(top, #FFF, #EEE);
-	background-image: -moz-linear-gradient(top, #FFF, #EEE);
-	background-image: -ms-linear-gradient(top, #FFF, #EEE);
-	background-image: -o-linear-gradient(top, #FFF, #EEE);
+	background: linear-gradient(#FFF,#EEE);
 	text-shadow:1px 1px 0 white;
 	border: 1px solid #bbb;
 	border-top: 1px solid #ccc;
@@ -149,11 +161,8 @@ h4.title {
 	border-bottom: 1px solid #ccddcc;
 	background: #EEE;
 	background-image: -moz-linear-gradient(top, #FFF, #EEE);
-	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFF),color-stop(1, #EEE));
 	background-image: -webkit-linear-gradient(top, #FFF, #EEE);
 	background-image: -moz-linear-gradient(top, #FFF, #EEE);
-	background-image: -ms-linear-gradient(top, #FFF, #EEE);
-	background-image: -o-linear-gradient(top, #FFF, #EEE);
 	text-shadow:1px 1px 0 white;
 	padding: 0.5em;
 	border: 1px solid #bbb;
@@ -251,3 +260,18 @@ td {
     opacity: 0.5;
     color: #aaa;
 }
+
+
+/*** custom checkboxes ***/
+
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */

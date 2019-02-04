@@ -6,12 +6,11 @@ export class Experience extends Component {
     return this.props.experience.map((job, index) => (
       <div className="card" key={job.id}>
         <h3 className="title"> 
-          { job.title }
-          @ <a target='_blank' rel='noopener noreferrer' href={job.url}>{ job.organization }</a>
+          { job.title } @ <a target='_blank' rel='noopener noreferrer' href={job.url}>{ job.organization }</a>
           <span>{ job.startDate } - { job.endDate }</span>
         </h3>
         <ul>
-          <Highlight details={ job.highlights } />
+          <Highlight highlights ={ job.highlights } />
         </ul>
       </div>
     ));    

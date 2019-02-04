@@ -7,7 +7,7 @@ import './App.css';
 
 class App extends Component {
   render() {
-    console.log(resumeData);
+    // console.log(resumeData);
     return (
       <div className="App">
         <div className="row">
@@ -22,19 +22,27 @@ class App extends Component {
             <Experience experience={ resumeData.experience } />
           </div>
           <div className="column">
+            <h2 className="section">Skills</h2>
             <div className="card">
-              <h2 className="section">Skills</h2>
-              <div className="row">
+              <div className="row gradient">
                 <div className='column'>Skill</div>
                 <div className='column'>Confidence</div>
                 <div className=''>Career Usage</div>
               </div>
               <Skills skills={resumeData.skills} />            
             </div>
-            <div className="card">
+            <div className="">
               <h2 className="section">Education</h2>
               <Education education={resumeData.education} />
             </div>  
+            <div className="">
+              <h2 className="section">Contact</h2>
+              <div className="card">
+                <div>{ resumeData.email }</div>
+                <div>{ resumeData.linkedIn }</div>
+                <div>{ resumeData.website }</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
