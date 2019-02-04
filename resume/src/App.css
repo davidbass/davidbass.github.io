@@ -28,7 +28,7 @@ h1, h2, h3, h4 {
 .column {    
 	display: flex;
 	flex-direction: column;
-	flex-basis: 100%;
+	flex-basis: 33%;
 }
 
 .column-nowrap {    
@@ -52,6 +52,10 @@ h1, h2, h3, h4 {
 
 	.double-column {
 		flex: 2
+	}
+
+	.triple-column {
+		flex: 3
 	}
 }
 
@@ -79,38 +83,10 @@ h1, h2, h3, h4 {
 	margin-left: -2em;
 }
 
-.nowrap {
-	white-space: nowrap;
-}
-
-
 #skills {
-	margin-top: 2em;
+	min-width: 300px;
 }
 
-#skills td {
-	white-space: nowrap;
-}
-
-.bigcard div {
-	margin-top: 1em;
-	margin-left: 1em;
-	color: #444;
-	margin-bottom: -10px;
-}
-
-.bigcard * {
-	font-size: 90%;
-}
-
-.bigcard h3.title {
-	margin-bottom: 1em;
-}
-
-.bigcard ul li {
-	padding: 0px;
-	margin-left: -8px;
-}
 
 .gradient {
     color: #666;
