@@ -31,6 +31,7 @@
 					"url": null,
 					"summary": "Developing and designing an open-source, cross-platform desktop application known as the Islandora Batch Uploader (IBU)",
 					"details": [
+						"https://bitbucket.org/wwulibraries/islandora-batch-uploader/",
 						"Designed to make it easy to describe and upload batches of images and video to Western's digital asset management system (MABEL).",
 						"Created with Electron, Node, VueJS, ES6 and many other Node modules",
 						"Uses Clarifai and Microsoft Cognitive Services machine learning APIs for automated image / video analysis",
@@ -39,8 +40,10 @@
 						"Using child processes to for time-consuming tasks such as video processing, pHash calculations and Ajax calls",
 						"Uses pHash to create a visual fingerprint/signature of each image, and then compares their differences to cluster similar images and to find scene changes for video",
 						"Harvests EXIF metadata when available, and uses date created to find events that occurred on the same day in the university calendar to suggest photo titles",
-						"<a href='https://bitbucket.org/wwulibraries/islandora-batch-uploader/'>IBU repository</a>",
-						"Presented IBU at the 2018 Islandora Camp San Diego (<a target='icamp' title='link to Islandora Camp Schedule' href='https://islandora.ca/camps/ca2018/schedule'>schedule</a> - <a target='slides' title='link to presentation slide deck' href='https://docs.google.com/presentation/d/1-5uXw8LFsyWg6B-mRf5oibuLMu-xk6tUkq_LWfwPmdI/edit?usp=sharing'>slide deck</a> - <a href='https://islandora.ca/content/looking-back-islandora-campca'>recap</a>)"
+						"Presented IBU at the 2018 Islandora Camp San Diego",
+						"https://islandora.ca/camps/ca2018/schedule",
+						"https://docs.google.com/presentation/d/1-5uXw8LFsyWg6B-mRf5oibuLMu-xk6tUkq_LWfwPmdI/edit?usp=sharing",
+						"https://islandora.ca/content/looking-back-islandora-campca"
 					]  	
 				},
 				{ 
@@ -51,12 +54,12 @@
 				{ 
 					"id": 4,
 					"url": null,
-					"summary": "Created a JSON to XML (MODS) preview tool using Node & Express - <a target='bbjson' title='link to Bitbucket repository' href='https://bitbucket.org/wwulibraries/json2xmlconverter/'>Bitbucket repository</a>"
+					"summary": "Created a JSON to XML (MODS) preview tool using Node & Express - https://bitbucket.org/wwulibraries/json2xmlconverter/"
 				},
 				{ 
 					"id": 5,
 					"url": null,
-					"summary": "Created a Drupal 7 module for Islandora that repeats the search within PDF.js - <a href='https://bitbucket.org/wwulibraries/wwu_islandora_pdfautosearch/src'>Bitbucket repository</a>"
+					"summary": "Created a Drupal 7 module for Islandora that repeats the search within PDF.js - https://bitbucket.org/wwulibraries/wwu_islandora_pdfautosearch/src"
 				}, 
 				{ 
 					"id": 6,

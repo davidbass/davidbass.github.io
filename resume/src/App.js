@@ -25,9 +25,9 @@ class App extends Component {
             <h2 className="section">Skills</h2>
             <div className="card">
               <div className="row gradient">
-                <div className='column'>Skill</div>
+                <div className='column'> Skill</div>
                 <div className='column'>Confidence</div>
-                <div className=''>Career Usage</div>
+                <div className='column'>Career Usage  </div>
               </div>
               <Skills skills={resumeData.skills} />            
             </div>
@@ -38,6 +38,9 @@ class App extends Component {
             <div className="">
               <h2 className="section">Contact</h2>
               <div className="card">
+                <h3 className="title">David Bass</h3>
+                <br></br>
+                <br></br>
                 <div>{ resumeData.email }</div>
                 <div>{ resumeData.linkedIn }</div>
                 <div>{ resumeData.website }</div>
