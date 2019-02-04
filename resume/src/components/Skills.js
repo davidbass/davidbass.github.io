@@ -17,14 +17,14 @@ function getRemainder(numerator) {
 export class Skills extends Component {  
   render() {
     return this.props.skills.map((skill, index) => (
-      <div className='row title' key={ skill.id }>
+      <div className='row title' key={ index }>
         <div className="column">{ skill.name }</div>
         {/* <FontAwesomeIcon icon="square" />  */}
         <div className="column">
           <div className="nowrap"><img alt="numerator" border="1" src={ numeratorImg } width={ skill.confidence/2 } height="7" /><img alt="denominator" border="1" src={ denominatorImg } width={ getRemainder(skill.confidence) } height="7" /></div>
         </div>
         <div className="right">
-          <Sparklines data={skill.usage} svgHeight={15} svgWidth={60} margin={5}>
+          <Sparklines data={skill.usage} svgHeight={15} svgWidth={100} margin={5}>
             <SparklinesCurve color="blue" />
           </Sparklines>
         </div>
