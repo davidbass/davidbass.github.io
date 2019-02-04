@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "homepage": "https://davidbass.github.io/resume",
+  "homepage": "https://davidbass.github.io/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -b master -d build"    
+    "deploy": "gh-pages -d build"    
   },
   "eslintConfig": {
     "extends": "react-app"
