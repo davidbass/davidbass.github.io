@@ -23,11 +23,11 @@ class App extends Component {
           </div>
           <div className="column">
             <h2 className="section">Skills</h2>
-            <div className="card" id="skills">
+            <div className="card">
               <div className="row gradient">
-                <div className='column'> Skill </div>
-                <div className='column'> Confidence </div>
-                <div className='column'> Career Usage  </div>
+                <div className='column'> Skill</div>
+                <div className='column'>Confidence</div>
+                <div className='column'>Career Usage  </div>
               </div>
               <Skills skills={resumeData.skills} />            
             </div>

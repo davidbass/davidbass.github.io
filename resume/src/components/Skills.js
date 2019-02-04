@@ -17,7 +17,7 @@ export class Skills extends Component {
         <div className="column">
           <div className="nowrap"><img alt="numerator" border="1" src={ numeratorImg } width={ skill.confidence/2 } height="7" /><img alt="denominator" border="1" src={ denominatorImg } width={ getRemainder(skill.confidence) } height="7" /></div>
         </div>
-        <div className="column">
+        <div className="right">
           <Sparklines data={skill.usage} svgHeight={15} svgWidth={100} margin={5}>
             <SparklinesCurve color="blue" />
           </Sparklines>
