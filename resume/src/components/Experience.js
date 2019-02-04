@@ -6,12 +6,6 @@ import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faMapMarkerAlt)
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSquare, faCheckSquare, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
-
-library.add(faSquare, faCheckSquare, faMapMarkerAlt)
-
 export class Experience extends Component {
   render() {
     return this.props.experience.map((job, index) => (
