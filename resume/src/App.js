@@ -23,7 +23,7 @@ class App extends Component {
           </div>
           <div className="column">
             <h2 className="section">Skills</h2>
-            <div className="card">
+            <div className="card" id="skills">
               <div className="row gradient">
                 <div className='column'> Skill</div>
                 <div className='column'>Confidence</div>

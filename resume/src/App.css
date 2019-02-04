@@ -28,7 +28,7 @@ h1, h2, h3, h4 {
 .column {    
 	display: flex;
 	flex-direction: column;
-	flex-basis: 100%;
+	flex-basis: 33%;
 }
 
 .column-nowrap {    
@@ -85,7 +85,8 @@ h1, h2, h3, h4 {
 
 
 #skills {
-	margin-top: 2em;
+	/* margin-top: 2em; */
+	min-width: 300px;
 }
 
 .location {
@@ -192,7 +193,6 @@ h4.title {
 a {
 	-webkit-transition: opacity 0.2s linear;
     opacity: 1;
-    color: #333;
 }
 
 
