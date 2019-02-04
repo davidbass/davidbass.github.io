@@ -191,6 +191,7 @@ h4.title {
 }
 
 a {
+	color: #666677;
 	-webkit-transition: opacity 0.2s linear;
     opacity: 1;
 }
